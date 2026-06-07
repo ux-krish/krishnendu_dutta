@@ -878,7 +878,7 @@ body { transition: background-color 0.5s var(--ease), color 0.5s var(--ease); }
 }
 
 /* ---------- Work / Projects ---------- */
-.work { padding: 120px 0; background: var(--bg-2); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); position: relative; }
+.portfolio { padding: 120px 0; background: var(--bg-2); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); position: relative; }
 .projects { display: flex; flex-direction: column; }
 .project {
   position: relative;
@@ -974,6 +974,12 @@ body { transition: background-color 0.5s var(--ease), color 0.5s var(--ease); }
   font-size: 20px; font-weight: 500;
   letter-spacing: -0.01em;
   margin-bottom: 6px;
+}
+.edu-score {
+  color: var(--fg-3);
+  font-weight: 400;
+  font-size: 0.85em;
+  letter-spacing: 0;
 }
 .edu-item p { color: var(--fg-2); font-size: 14px; }
 @media (max-width: 560px) {

@@ -245,7 +245,6 @@
         }, 0.2)
         .from(".hero__role-line", { width: 0, duration: 0.8 }, 1.0)
         .from(".hero__role-text", { y: 20, opacity: 0, duration: 0.9 }, 1.1)
-        .from(".hero__bottom > *", { y: 24, opacity: 0, duration: 0.8, stagger: 0.1 }, 1.2);
 
       // Parallax hero shapes
       $$(".hero__shape").forEach((shape, i) => {
